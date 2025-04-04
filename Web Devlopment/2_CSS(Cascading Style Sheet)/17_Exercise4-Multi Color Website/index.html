@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color Website</title>
+    <style>
+        :root {
+            --primary-color: black;
+            --text-color: aliceblue;
+            --secondary-color: burlywood;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--secondary-color);
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+        }
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            display: inline;
+            list-style: none;
+            padding:23px;
+            font-weight: bolder;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            
+        </nav>
+    </header>
+</body>
+</html>

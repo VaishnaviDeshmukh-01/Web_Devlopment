@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 12px ;
+    /* position: sticky; */
+}
+
+nav ul{
+    display: flex;
+    position: sticky;
+    
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 23px;
+}
+
+.container{
+    border: 2px solid black;
+}
+.box {
+    
+    height: 63px;
+    width: 62px;
+    margin: 12px;
+    display: inline-block;
+}
+
+.rectangle {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 930px;
+    height: 12px;
+    margin: 12px;
+    padding: 200px;
+    text-align: center;
+    font-size: 50px;
+}
